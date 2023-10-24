@@ -1,0 +1,151 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+.img{
+   margin-left: 116px;
+   margin-top: 24px;
+}
+
+.button_div{
+   width: 140px;
+   height: 40px;
+   border-radius: 4px;
+   background: var(--main-secondary, #70C05B);
+   border: none;
+   color: #fff;
+   margin-left: 308px;
+   margin-top: -40px;
+   position: absolute;
+}
+
+.menu{
+   margin-left: 320px;
+   margin-top: -32px;
+   position: absolute;
+}
+
+.inp{
+   border-radius: 4px;
+   border: 1px solid var(--main-secondary, #70C05B);
+   background: var(--main-surface, #FFF);
+   width: 360px;
+   height: 40px;
+   margin-left: 464px;
+   margin-top: -40px;
+   position: absolute;
+}
+
+.heart{
+   margin-left: 884px;
+   position: absolute;
+   margin-top: -40px;
+}
+
+.Избранное{
+   margin-left: 864px;
+   position: absolute;
+}
+
+.pack{
+   margin-left: 969px;
+   position: absolute;
+   margin-top: -40px;
+}
+
+.продукты{
+   margin-left: 953px;
+   position: absolute;
+}
+
+
+.cart{
+   margin-left: 1046px;
+   position: absolute;
+   margin-top: -40px;
+}
+
+.hey{
+   margin-left: 1033px;
+   position: absolute;
+}
+
+.usrr{
+   margin-left: 1115px;
+   margin-top: -50px;
+}
+
+
+body{
+   background: var(--main-bg-page, #FBF8EC);
+}
+
+header{
+   background: var(--surface, #FFF);
+
+   /* Default/S */
+   box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+.group{
+   margin-top: -200px;
+   margin-left: 50px;
+}
+
+.card-div{
+   width: 272px;
+   height: 350px;
+   background: #fff;
+}
+
+.rubl{
+   color: var(--main-on-surface, #414141);
+
+   /* Desc/Text-Bold/M */
+   font-family: Rubik;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 150%; /* 27px */
+}
+
+.past{
+   margin-top: 26px;
+}
+
+.rating{
+   margin-top: 20px;
+}
+
+.hls{
+   width: 256px;
+   height: 40px;
+   border-radius: 4px;
+   border: 1px solid var(--main-secondary, #70C05B);
+   background: #fff;
+   color: #70C05B;
+}
+
+.div-1 {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 30px;
+   margin-top: 50px;
+}
+
+
+.hls:hover{
+   border-radius: 4px;
+   background: var(--main-primary, #F63);
+   color: #fff;
+   transition: 1s;
+}
+
+
+.pagin{
+   margin-left: 389px;
+   margin-top: 64px;
+}
